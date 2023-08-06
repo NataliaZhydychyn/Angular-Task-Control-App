@@ -1,0 +1,23 @@
+<h2>{{ listName }}</h2>
+<div class="task-list" *ngIf="taskList">
+  <div class="drop-area"
+    cdkDropList
+    (cdkDropListDropped)="drop($event)"
+    [cdkDropListData]="taskList"
+  >
+    <app-task *ngFor="let newTask of taskList"
+      [task]="newTask"
+      (deleteTaskById)="onDelete($event)"
+    >
+    </app-task>
+  </div>
+  <!-- <input type="color" id="color-change" name="olor-change" value="#e66465"> -->
+  <select name="color">
+    <option value="" selected disabled>Сolumn color</option>
+    <option value="orange">Orange</option>
+    <option value="red">Yellow</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+  </select>
+</div>
+

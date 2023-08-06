@@ -1,0 +1,28 @@
+.tollbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  h2{
+    font-size: 35px;
+    color: #d87d56;;
+  }
+  .filter-block {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    select {
+      display: block;
+      width: 150px;
+      height: 40px;
+      border: none;
+      line-height: 40px;
+      font-size: 16px;
+      border-radius: 20px;
+      padding-left: 20px;
+      background: #e6e6e6;
+      border-bottom: 4px solid  #c7c7c7;;
+      color: rgb(133, 133, 133);
+    }
+  }
+
+}

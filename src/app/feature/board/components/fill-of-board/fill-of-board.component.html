@@ -1,0 +1,18 @@
+<div class="add-task-btn">
+  <app-button type="submit" textButton="Add New TASK" (click)="modal=true"></app-button>
+</div>
+<app-add-new-task *ngIf="modal" (close)="modal = false"></app-add-new-task>
+<div class="container" cdkDropListGroup>
+  <app-task-list listName = "TODO" [taskList]="listOfTaskStart$ |async"></app-task-list>
+  <app-task-list listName = "IN PROGRESS" [taskList]="listOfTaskInProgress$ |async"></app-task-list>
+  <app-task-list listName = "DONE" [taskList]="listOfTaskInDone$ |async"></app-task-list>
+</div>
+
+
+
+
+
+
+
+
+

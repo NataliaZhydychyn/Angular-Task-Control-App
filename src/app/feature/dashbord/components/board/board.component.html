@@ -1,0 +1,36 @@
+<div class="board-container">
+  <h2>{{ board.name }}</h2>
+  <p class="description">{{ board.description }}</p>
+  <p class="date"><!-- {{ board?.createdAt }} --> Дата</p>
+
+  <div class="btn-block">
+    <div class="small-btn">
+      <app-button
+        [sizeButton]="sizeButton.MEDIUM"
+        [typeButton]="typeButton.SECONDARY"
+        type="submit"
+        textButton="Edit"
+        class="btn-edit"
+      >
+      </app-button>
+      <app-button
+        [sizeButton]="sizeButton.MEDIUM"
+        [typeButton]="typeButton.SECONDARY"
+        type="submit"
+        textButton="Delete"
+        class="btn-delete"
+        (click)="onDeleteBoard(board.id)"
+      >
+      </app-button>
+    </div>
+    <app-button
+      textButton="Go to Task List"
+      type="submit"
+      class="btn-open-board"
+      (click)="redirectToTaskList()"
+    >
+    </app-button>
+  </div>
+</div>
+
+<!-- [routerLink]="board.id ? ['/board', board.id] : null" -->

@@ -1,0 +1,17 @@
+.app-input {
+  &__wrapper {
+    font-size: 22px;
+    color:#cc724b;
+  }
+
+  &__input {
+    display: block;
+    width: 300px;
+    border: none;
+    line-height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background: #fff;
+    margin-top: 10px;
+  }
+}

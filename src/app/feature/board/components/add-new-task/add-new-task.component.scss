@@ -1,0 +1,24 @@
+.form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom: 5px solid #b3b3b3;
+  position: absolute;
+  left: 40%;
+  .btn-container {
+    display: flex;
+    gap: 10px;
+  }
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background:rgba(0, 0, 0, 0.568)
+}

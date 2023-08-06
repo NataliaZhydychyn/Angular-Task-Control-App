@@ -1,0 +1,39 @@
+.board-container {
+  background-color: rgba(236, 236, 236, 0.884);
+  border-bottom: 5px solid #bebebe;
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: rgb(119, 119, 119);
+  padding-top: 16px;
+  p {
+    padding-left: 15px;
+    color: rgb(155, 155, 155);
+    font-size: 15px;
+
+  }
+  h2 {
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+    padding-left: 15px;
+  }
+  .btn-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .small-btn {
+      display: flex;
+      gap: 10px;
+    }
+
+
+
+  }
+}

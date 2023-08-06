@@ -1,0 +1,50 @@
+.button {
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+
+  &-big {
+    width: 320px;
+    height: 40px;
+  }
+
+  &-small {
+    width: 65px;
+    height: 40px;
+  }
+
+  &-medium {
+    width: 155px;
+    height: 40px;
+  }
+
+  &-central {
+    width: 350px;
+    height: 211px;
+  }
+
+  &-main {
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    &:hover {
+      opacity: 0.8;
+      border: 4px solid #d87d56;
+      cursor: grab;
+    }
+  }
+
+  &-secondary {
+    background: #e6e6e6;
+    border-bottom: 5px solid #bebebe;
+    color: rgb(133, 133, 133);
+    &:hover {
+      opacity: 0.8;
+      border: 4px solid #c7c7c7;
+      cursor: grab;
+    }
+  }
+}

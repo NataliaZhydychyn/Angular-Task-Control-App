@@ -1,0 +1,28 @@
+<div class="backdrop"></div>
+<form [formGroup]="myGroup" class="form-block">
+  <app-input
+    labelText="Task name"
+    inputPlaceholder="Task name..."
+    typeInput="text"
+    idHtml="formId"
+    [controlName]="taskName"
+  ></app-input>
+  <div class="btn-container">
+    <app-button
+      [sizeButton]="sizeButton.MEDIUM"
+      [typeButton]="typeButton.MAIN"
+      type="submit"
+      textButton="Add Task"
+      (click)="onAddTask()"
+    >
+    </app-button>
+    <app-button
+      [sizeButton]="sizeButton.MEDIUM"
+      [typeButton]="typeButton.MAIN"
+      type="submit"
+      textButton="Close"
+      (click)="close.emit()"
+    >
+    </app-button>
+  </div>
+</form>

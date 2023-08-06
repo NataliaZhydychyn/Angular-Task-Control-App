@@ -1,0 +1,24 @@
+.form-add-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(236, 236, 236, 0.884);
+  border-bottom: 5px solid #bebebe;
+  width: 350px;
+  border-radius: 20px;
+
+  input, textarea {
+    width: 320px;
+    border: none;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .btn-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+  }
+
+}

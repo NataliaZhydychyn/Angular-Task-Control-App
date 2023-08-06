@@ -1,0 +1,126 @@
+{
+  "boards": [
+    {
+      "id": 0,
+      "createdAt": "",
+      "name": "Today List",
+      "description": "Lorem ipsum dolor sit amet consecte"
+    },
+    {
+      "id": 1,
+      "createdAt": "",
+      "name": "Weekend",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "id": 2,
+      "createdAt": "",
+      "name": "Want to do",
+      "description": "Lorem adipisicing sit amet"
+    },
+    {
+      "id": 3,
+      "createdAt": "",
+      "name": "For Future",
+      "description": "Amet consectetur adipisicing elit"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 5,
+      "createdAt": "",
+      "name": "Learn",
+      "status": "DONE",
+      "boardId": 3
+    },
+    {
+      "id": 7,
+      "createdAt": "",
+      "name": "Go to shop",
+      "status": "START",
+      "boardId": 0
+    },
+    {
+      "id": 8,
+      "createdAt": "",
+      "name": "Walking",
+      "status": "START",
+      "boardId": 0
+    },
+    {
+      "id": 9,
+      "createdAt": "",
+      "name": "Sleep",
+      "status": "START",
+      "boardId": 0
+    },
+    {
+      "id": 11,
+      "createdAt": "",
+      "name": "Start reading book",
+      "status": "PROGRESS",
+      "boardId": 0
+    },
+    {
+      "id": 12,
+      "createdAt": "",
+      "name": "Create new feature",
+      "status": "PROGRESS",
+      "boardId": 0
+    },
+    {
+      "id": 0.989604132933565,
+      "createdAt": "",
+      "name": "To study something",
+      "status": "START",
+      "boardId": 0
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 0.5613450528835275,
+      "createdAt": "",
+      "name": "Finish HW",
+      "status": "PROGRESS",
+      "boardId": 0
+    },
+    {
+      "id": 0.844275,
+      "createdAt": "",
+      "name": "Learn Angular",
+      "status": "PROGRESS",
+      "boardId": 0
+    },
+    {
+      "id": 0.854645275,
+      "createdAt": "",
+      "name": "Make CV",
+      "status": "DONE",
+      "boardId": 0
+    },
+    {
+      "id": 0.9622440209123742,
+      "createdAt": "",
+      "name": "Do something new",
+      "status": "START",
+      "boardId": 0
+    },
+    {
+      "id": 0.4984412035159953,
+      "createdAt": "",
+      "name": "Donate",
+      "status": "START",
+      "boardId": 0
+    }
+  ]
+}

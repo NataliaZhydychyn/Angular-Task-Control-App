@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d87d56;
+  color: white;
+  padding: 25px;
+  h1 {
+    font-size: 45px;
+  }
+  .navigation {
+    display: flex;
+    gap: 30px;
+    align-self: center;
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      &:hover {
+        transform: scale(1.2);
+        transition: 0.5s;
+      }
+    }
+  }
+
+}

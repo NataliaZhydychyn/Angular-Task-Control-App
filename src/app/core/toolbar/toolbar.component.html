@@ -1,0 +1,31 @@
+
+<div class="tollbar">
+  <h2>Board name</h2>
+  <div class="filter-block">
+    <select name="filter-select" id="filter-select">
+      <option value="volvo">Name</option>
+      <option value="saab">Date of creation</option>
+    </select>
+    <app-button
+      [sizeButton]="sizeButton.SMALL"
+      [typeButton]="typeButton.SECONDARY"
+      type="submit"
+      textButton="ask"
+      class="btn-ask"
+    ></app-button>
+    <app-button
+      [sizeButton]="sizeButton.SMALL"
+      [typeButton]="typeButton.SECONDARY"
+      type="submit"
+      textButton="desk"
+      class="btn-ask"
+    ></app-button>
+    <app-button
+      [sizeButton]="sizeButton.BIG"
+      [typeButton]="typeButton.MAIN"
+      type="submit"
+      textButton="Delete board"
+      class="btn-ask"
+  ></app-button>
+  </div>
+</div>

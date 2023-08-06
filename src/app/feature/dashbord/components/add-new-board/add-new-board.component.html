@@ -1,0 +1,36 @@
+<form
+  class="form-add-board"
+  [formGroup]="formBoardGroup"
+>
+  <input
+    type="text"
+    placeholder="Enter board name"
+    formControlName="boardName"
+    maxlength="18"
+    controlName="boardName"
+  >
+  <textarea
+    placeholder="Enter board description"
+    rows="2"
+    formControlName="boardDescription"
+    maxlength="60"
+  ></textarea>
+  <div class="btn-block">
+    <app-button
+      [sizeButton]="sizeButton.MEDIUM"
+      [attr.disabled]="formBoardGroup.invalid"
+      type="submit"
+      textButton="Add Board"
+      (click)="addBoard()"
+    >
+    </app-button>
+    <app-button
+      [sizeButton]="sizeButton.MEDIUM"
+      type="button"
+      textButton="Close"
+      (click)="closeForm.emit()"
+    ></app-button>
+  </div>
+</form>
+
+<!-- (ngSubmit)="addBoard()" -->

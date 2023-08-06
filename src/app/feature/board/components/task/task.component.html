@@ -1,0 +1,34 @@
+<div class="task" cdkDrag>
+  <div *ngIf="editToInput; else putInput"
+        class="task-name">{{ task.name }}</div>
+        <ng-template #putInput>
+          <div [formGroup]="taskNameGroup">
+              <app-input
+              inputPlaceholder="Put new name..."
+              typeInput="text"
+              idHtml="formId"
+              [controlName]="taskNameControl"
+            ></app-input>
+          </div>
+        </ng-template>
+
+
+  <app-button
+    [sizeButton]="sizeButton.SMALL"
+    [typeButton]="typeButton.SECONDARY"
+    type="submit"
+    [textButton]="editToInput ? 'Edit':'Save'"
+    class="btn-edit"
+    (click)=" onEditTask()"
+  >
+  </app-button>
+  <app-button
+    [sizeButton]="sizeButton.SMALL"
+    [typeButton]="typeButton.SECONDARY"
+    type="submit"
+    textButton="Delete"
+    class="btn-delete"
+    (click)="onDeleteTask(task.id)"
+  >
+  </app-button>
+</div>
